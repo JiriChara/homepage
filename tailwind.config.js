@@ -9,6 +9,7 @@ module.exports = {
       },
       colors: {
         red: {
+          400: '#f2949c',
           500: '#d95560',
         },
       },

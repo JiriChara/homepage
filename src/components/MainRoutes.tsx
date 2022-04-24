@@ -9,7 +9,7 @@ import CurriculumVitae from '../features/curriculumVitae/pages/CurriculumVitae';
 
 export default function MainRoutes() {
   return (
-    <main>
+    <main className="grow">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/works" element={<Works />} />
