@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
+
 import MainNavLink from './MainNavLink';
+import MobileHamburger from './MobileHamburger';
 
 export default function Header() {
   return (
@@ -12,7 +14,7 @@ export default function Header() {
             </h1>
           </Link>
 
-          <nav className="flex space-x-6">
+          <nav className="hidden md:flex space-x-6">
             <MainNavLink to="/">
               Home
             </MainNavLink>
@@ -25,6 +27,8 @@ export default function Header() {
               Curriculum Vitae
             </MainNavLink>
           </nav>
+
+          <MobileHamburger />
         </div>
       </div>
     </header>

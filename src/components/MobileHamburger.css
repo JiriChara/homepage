@@ -1,0 +1,44 @@
+.hamburger {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background: blue;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(8px);
+}
+
+.hamburger-bottom {
+  transform: translateY(16px);
+}
+
+.hamburger.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.hamburger.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.hamburger.open .hamburger-middle {
+  display: none;
+}
+
+.hamburger.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
