@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="md:w-1/2">
         <h1 className="text-3xl text-black">
           <span className="whitespace-pre-line">
-            Senior Front-End Engineer
+            Senior Software Engineer
             { ' ' }
             { amp }
             { '\n' }
