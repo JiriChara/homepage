@@ -4,8 +4,8 @@ import {
 } from 'react-router-dom';
 
 import Home from '../features/home/pages/Home';
-import Works  from '../features/works/pages/Works';
-import CurriculumVitae  from '../features/curriculumVitae/pages/CurriculumVitae';
+import Works from '../features/works/pages/Works';
+import CurriculumVitae from '../features/curriculumVitae/pages/CurriculumVitae';
 
 export default function MainRoutes() {
   return (
