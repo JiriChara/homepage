@@ -36,7 +36,7 @@ export default function MobileMenu() {
     'bg-white',
     'sm:w-auto',
     'sm:self-center',
-    'right-6',
+    'right-2',
     'drop-shadow-lg',
     'text-gray-700',
   ].join(' ');
