@@ -4,6 +4,7 @@ specifiers:
   '@babel/core': ^7.17.9
   '@babel/plugin-syntax-flow': ^7.16.7
   '@babel/plugin-transform-react-jsx': ^7.17.3
+  '@fontsource/ruda': ^4.5.6
   '@testing-library/dom': ^8.13.0
   '@testing-library/jest-dom': ^5.16.4
   '@testing-library/react': ^13.1.1
@@ -22,6 +23,7 @@ specifiers:
   web-vitals: ^2.1.4
 
 dependencies:
+  '@fontsource/ruda': 4.5.6
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
   web-vitals: 2.1.4
@@ -1512,6 +1514,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/ruda/4.5.6:
+    resolution: {integrity: sha512-J153a5g8IPEbxgSFtQiG+SzUdhVmt01KV70q1uVd+rQLFan4LVk12sqXeO3PPuxQ6cmTDTevTGZLUlj/EaP0ZQ==}
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
