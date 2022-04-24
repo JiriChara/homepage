@@ -1,15 +1,16 @@
-import { useState } from 'react';
-
 import './MobileHamburger.css';
 
-export default function MobileHamburger() {
-  const [isActive, setActive] = useState(false);
+interface MobileHamburgerProps {
+  isActive: boolean;
+  onToggle: () => void;
+}
 
+export default function MobileHamburger({ isActive, onToggle }: MobileHamburgerProps) {
   return (
     <button
       type="button"
       className={`hamburger block md:hidden${isActive ? ' open' : ''}`}
-      onClick={() => setActive(!isActive)}
+      onClick={onToggle}
     >
       <span className="hamburger-top bg-white" />
       <span className="hamburger-middle bg-white" />
