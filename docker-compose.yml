@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+
+  homepage:
+    container_name: homepage
+    build:
+      context: .
+    ports:
+      - '80:80'

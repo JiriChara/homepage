@@ -12,8 +12,8 @@ export default function MainRoutes() {
     <main>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<Works />} />
-        <Route path="/" element={<CurriculumVitae />} />
+        <Route path="/works" element={<Works />} />
+        <Route path="/cv" element={<CurriculumVitae />} />
       </Routes>
     </main>
   );
