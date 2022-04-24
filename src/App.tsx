@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Routes from './components/Routes';
+import MainRoutes from './components/MainRoutes';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
     <>
       <Header />
 
-      <Routes />
+      <MainRoutes />
 
       <Footer />
     </>
