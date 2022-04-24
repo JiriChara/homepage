@@ -7,6 +7,11 @@ module.exports = {
       fontFamily: {
         'sans': ['Ruda', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        red: {
+          500: '#d95560',
+        },
+      },
     },
   },
   plugins: [],
