@@ -15,7 +15,7 @@ export default function CvSection({
 
   return (
     <section className="container mx-auto flex flex-col md:flex-row md:space-x-4 divide-x-2 divide-sky-400">
-      <div>
+      <div className="md:w-1/3 lg:w-1/5">
         <h3
           id={sectionId}
           className="text-xl text-red-500 font-bold sm:mb-2"
@@ -29,7 +29,7 @@ export default function CvSection({
         </h3>
       </div>
 
-      <div className="pl-4 space-y-5">
+      <div className="md:w-2/3 lg:w-4/5 pl-4 space-y-5">
         { children }
       </div>
     </section>
