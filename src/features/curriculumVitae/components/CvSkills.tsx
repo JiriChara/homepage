@@ -1,7 +1,7 @@
 import CvSection from './CvSection';
 import Skill from './Skill';
 
-export default function CvEmploymentHistory() {
+export default function CvSkills() {
   const skills = [
     { skill: 'JavaScript', strong: true },
     { skill: 'TypeScript', strong: true },
