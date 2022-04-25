@@ -22,7 +22,7 @@ export default function Works() {
             className="hover:brightness-125"
             href="#hpe"
           >
-            Hewlett Packard Enterprise (2021 until now)
+            Hewlett Packard Enterprise (from 2021 until now)
           </a>
         </h2>
 
