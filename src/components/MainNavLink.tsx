@@ -11,11 +11,11 @@ export default function MainNavLink({ to, children }: MainNavLinkProps) {
     <NavLink
       to={to}
       className={({ isActive }) => {
-        const defaultClasses = 'hover:underline decoration-sky-400 first-letter:decoration-sky-400';
+        const defaultClasses = 'decoration-sky-400 first-letter:decoration-sky-400';
 
         return isActive
           ? `${defaultClasses} first-letter:underline`
-          : defaultClasses;
+          : `${defaultClasses} hover:underline`;
       }}
     >
       { children }

@@ -27,7 +27,7 @@ export default function Hero() {
 
       <div className="md:w-1/2 mb-6 md:mb-0 flex justify-end">
         <img
-          className="h-full rounded"
+          className="h-full rounded shadow"
           alt="Jiří Chára on King Power Mahanakhon"
           src={me}
         />

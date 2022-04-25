@@ -6,7 +6,7 @@ import Socials from '../components/Socials';
 
 export default function Home() {
   return (
-    <article className="py-6 px-4">
+    <article className="py-6 px-4 ">
       <Helmet>
         <title>
           Home - Jiří Chára
@@ -15,13 +15,11 @@ export default function Home() {
 
       <Hero />
 
-      <Introduction />
+      <div className="space-y-4 divide-y divide-sky-400 divide-y-2">
+        <Introduction />
 
-      <section className="container mx-auto my-6">
-        <hr />
-      </section>
-
-      <Socials />
+        <Socials />
+      </div>
     </article>
   );
 }

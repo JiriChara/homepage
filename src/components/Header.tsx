@@ -19,7 +19,7 @@ export default function Header() {
           </MainNavLink>
 
           <MainNavLink to="/works">
-            Works
+            Projects
           </MainNavLink>
 
           <MainNavLink to="/cv">

@@ -9,7 +9,7 @@ import {
 
 export default function Socials() {
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto pt-4">
       <p>
         Let&apos;s connect on
         { ' ' }
