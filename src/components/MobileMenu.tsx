@@ -39,6 +39,9 @@ export default function MobileMenu() {
     'right-2',
     'drop-shadow-lg',
     'text-gray-700',
+    'border-b-[3px]',
+    'border-x-[3px]',
+    'border-sky-400',
   ].join(' ');
 
   const navItemClasses = [
