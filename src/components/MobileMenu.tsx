@@ -42,6 +42,7 @@ export default function MobileMenu() {
     'border-b-[3px]',
     'border-x-[3px]',
     'border-sky-400',
+    'rounded-b',
   ].join(' ');
 
   const navItemClasses = [
