@@ -20,6 +20,14 @@ export default function NotFound() {
       <h2 className="text-xl">
         404
       </h2>
+
+      <code>
+        <span className="text-sky-400">
+          &gt;
+        </span>
+        { ' ' }
+        This incident will be reported
+      </code>
     </article>
   );
 }
