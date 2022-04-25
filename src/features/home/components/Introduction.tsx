@@ -9,7 +9,7 @@ export default function Introduction() {
         My name is Jiří Chára and I currently work as a senior software engineer at
         { ' ' }
         <a
-          className="underline hover:text-gray-600 hover:decoration-sky-400"
+          className="underline hover:brightness-125 hover:decoration-sky-400"
           href="https://www.hpe.com"
         >
           Hewlett Packard Enterprise
