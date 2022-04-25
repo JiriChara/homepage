@@ -23,7 +23,7 @@ export default function NotFound() {
 
       <code>
         <span className="text-sky-400">
-          &gt;
+          $&gt;
         </span>
         { ' ' }
         This incident will be reported
