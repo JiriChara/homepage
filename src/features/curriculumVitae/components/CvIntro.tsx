@@ -38,7 +38,7 @@ export default function CvIntro() {
       </section>
 
       <section className="container mx-auto flex flex-col md:flex-row">
-        <div className="w-2/3 mt-4">
+        <div className="md:w-2/3 mt-4">
           <em className="text-gray-500">
             <small>
               Web Development is my passion! My professional adventure with the web started in
