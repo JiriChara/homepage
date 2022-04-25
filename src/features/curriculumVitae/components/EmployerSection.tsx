@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react';
 
+import textToAnchorId from '../../../utils/textToAnchorId';
+
 interface EmployerSectionProps {
   children: ReactNode;
   period: string;
@@ -11,10 +13,7 @@ export default function EmployerSection({
   period,
   employerName,
 }: EmployerSectionProps) {
-  const employerId = employerName
-    .replace(/[^\w\s]/g, '')
-    .replace(/\s+/g, '-')
-    .toLowerCase();
+  const employerId = textToAnchorId(employerName);
 
   return (
     <section>
