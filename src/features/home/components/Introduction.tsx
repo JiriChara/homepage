@@ -1,3 +1,5 @@
+import { Hpe } from 'grommet-icons';
+
 export default function Introduction() {
   return (
     <section className="container mx-auto">
@@ -9,9 +11,10 @@ export default function Introduction() {
         My name is Jiří Chára and I currently work as a senior software engineer at
         { ' ' }
         <a
-          className="underline hover:brightness-125 hover:decoration-sky-400"
+          className="underline text-[#01A982] hover:brightness-125"
           href="https://www.hpe.com"
         >
+          <Hpe color="#01A982" className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
           Hewlett Packard Enterprise
         </a>
         . I live in Munich, but I can call many
