@@ -19,4 +19,16 @@ root.render(
   </React.StrictMode>,
 );
 
+// Get rid of old service worker (for now)
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.ready
+    .then((registration) => {
+      registration.unregister();
+    })
+    .catch((error) => {
+      /* eslint-disable-next-line no-console */
+      console.error(error.message);
+    });
+}
+
 reportWebVitals();
