@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
 import CvIntro from '../components/CvIntro';
+import CvEmploymentHistory from '../components/CvEmploymentHistory';
 
 export default function CurriculumVitae() {
   return (
@@ -12,6 +13,8 @@ export default function CurriculumVitae() {
       </Helmet>
 
       <CvIntro />
+
+      <CvEmploymentHistory />
     </article>
   );
 }
