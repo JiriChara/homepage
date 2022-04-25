@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import Introduction from '../components/Introduction';
+import Socials from '../components/Socials';
 
 export default function Home() {
   return (
@@ -7,6 +8,12 @@ export default function Home() {
       <Hero />
 
       <Introduction />
+
+      <section className="container mx-auto my-6">
+        <hr />
+      </section>
+
+      <Socials />
     </article>
   );
 }

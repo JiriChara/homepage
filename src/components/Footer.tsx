@@ -14,7 +14,7 @@ export default function Footer() {
           The source code of this website is available on
           { ' ' }
           <a
-            className="underline hover:text-gray-600 hover:decoration-sky-400"
+            className="underline hover:brightness-125 hover:decoration-sky-400"
             href="https://github.com/JiriChara/homepage"
           >
             GitHub
@@ -23,7 +23,7 @@ export default function Footer() {
           and is licensed under
           { ' ' }
           <a
-            className="underline hover:text-gray-600 hover:decoration-sky-400"
+            className="underline hover:brightness-125 hover:decoration-sky-400"
             href="https://opensource.org/licenses/MIT"
           >
             MIT
