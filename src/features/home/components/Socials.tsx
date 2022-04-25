@@ -18,7 +18,7 @@ export default function Socials() {
           className="underline text-[#0077b5] hover:brightness-125"
         >
           <span className="whitespace-nowrap">
-            <FaLinkedin className="inline-block mr-0.5" />
+            <FaLinkedin className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
             LinkedIn
           </span>
         </a>
@@ -30,7 +30,7 @@ export default function Socials() {
           className="underline text-[#126567] hover:brightness-125"
         >
           <span className="whitespace-nowrap">
-            <FaXingSquare className="inline-block mr-0.5" />
+            <FaXingSquare className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
             Xing
           </span>
         </a>
@@ -45,7 +45,7 @@ export default function Socials() {
           className="underline text-[#c13584] hover:brightness-125"
         >
           <span className="whitespace-nowrap">
-            <FaInstagram className="inline-block mr-0.5" />
+            <FaInstagram className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
             Instagram
           </span>
         </a>
@@ -60,7 +60,7 @@ export default function Socials() {
           className="underline text-[#24292e] hover:brightness-200"
         >
           <span className="whitespace-nowrap">
-            <FaGithub className="inline-block mr-0.5" />
+            <FaGithub className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
             GitHub
           </span>
         </a>
@@ -75,7 +75,7 @@ export default function Socials() {
           className="underline text-[#d51007] hover:brightness-200"
         >
           <span className="whitespace-nowrap">
-            <FaLastfm className="inline-block mr-0.5" />
+            <FaLastfm className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
             Last.fm
           </span>
         </a>
@@ -87,7 +87,7 @@ export default function Socials() {
           className="underline text-[#1db954] hover:brightness-200"
         >
           <span className="whitespace-nowrap">
-            <FaSpotify className="inline-block mr-0.5" />
+            <FaSpotify className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
             Spotify
           </span>
         </a>

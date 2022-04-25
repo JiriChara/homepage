@@ -1,7 +1,7 @@
 import me from '../../../assets/me.jpg';
 
 export default function Hero() {
-  const amp = <span className="text-red-500">&amp;</span>;
+  const amp = <span className="text-red-500 inline-block hover:rotate-[30deg] duration-500">&amp;</span>;
 
   return (
     <section className="container mx-auto flex flex-col-reverse md:flex-row md:justify-between items-center">
