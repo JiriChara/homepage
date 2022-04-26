@@ -30,7 +30,7 @@ export default function MobileMenu() {
     'items-center',
     'self-end',
     'p-4',
-    'top-[87.5px]',
+    'top-full',
     'mt-0',
     'space-y-2',
     'bg-white',
@@ -43,6 +43,7 @@ export default function MobileMenu() {
     'border-x-[3px]',
     'border-sky-400',
     'rounded-b',
+    'z-10',
   ].join(' ');
 
   const navItemClasses = [
