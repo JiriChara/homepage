@@ -30,8 +30,8 @@ export default function CvEmploymentHistory() {
         <p>
           The Xempus platform digitalizes occupational retirement pensions in Germany. It
           provides a solution for all target groups involved. As a senior front-end engineer at
-          Xempus, I am responsible for overall architecture on front-end and for building
-          features, that are available to reuse for the whole platform. I also maintain &amp;
+          Xempus, I was responsible for overall architecture on front-end and for building
+          features, that are available to reuse for the whole platform. I also maintained &amp;
           build a design system of reusable components and patterns. Each service in the
           platform is integrated using Docker and Kubernetes.
         </p>
