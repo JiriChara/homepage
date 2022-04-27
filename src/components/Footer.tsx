@@ -10,7 +10,7 @@ export default function Footer() {
           { `Copyright ©${currentYear} Jiří Chára. All Rights Reserved.` }
         </p>
 
-        <p>
+        <p className="mt-1 text-xs text-gray-600}">
           The source code of this website is available on
           { ' ' }
           <a

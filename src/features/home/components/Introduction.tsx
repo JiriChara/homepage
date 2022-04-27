@@ -1,4 +1,4 @@
-import { Hpe } from 'grommet-icons';
+import HpeLink from '../../../components/HpeLink';
 
 export default function Introduction() {
   return (
@@ -10,13 +10,7 @@ export default function Introduction() {
       <p className="mb-4">
         My name is Jiří Chára and I currently work as a senior software engineer at
         { ' ' }
-        <a
-          className="underline text-[#01A982] hover:brightness-125"
-          href="https://www.hpe.com"
-        >
-          <Hpe color="#01A982" className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
-          Hewlett Packard Enterprise
-        </a>
+        <HpeLink />
         . I live in Munich, but I can call many
         places home. I love traveling, music, spicy food, running, coconuts, Thailand, the sun,
         drones, and making long comma-separated lists.

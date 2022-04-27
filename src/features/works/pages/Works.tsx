@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
-import { Hpe } from 'grommet-icons';
+
+import HpeLink from '../../../components/HpeLink';
 
 import installer from '../../../assets/installer.png';
 import xbav from '../../../assets/xbav.png';
@@ -39,13 +40,7 @@ export default function Works() {
             <p>
               At
               { ' ' }
-              <a
-                className="underline text-[#01A982] hover:brightness-125"
-                href="https://www.hpe.com"
-              >
-                <Hpe color="#01A982" className="inline-block mr-0.5 hover:rotate-[30deg] duration-500" />
-                Hewlett Packard Enterprise
-              </a>
+              <HpeLink />
               { ' ' }
               I work as a Senior Software Engineer on a new generation UI for
               { ' ' }
