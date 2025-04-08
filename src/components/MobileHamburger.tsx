@@ -9,6 +9,7 @@ export default function MobileHamburger({ isActive, onToggle }: MobileHamburgerP
   return (
     <button
       type="button"
+      aria-label="Toggle menu"
       className={`hamburger block md:hidden${isActive ? ' open' : ''}`}
       onClick={onToggle}
     >
