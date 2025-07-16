@@ -6,83 +6,80 @@ export default function CvEmploymentHistory() {
     <CvSection title="Employment History">
       <EmployerSection
         employerName="Hewlett Packard Enterprise"
-        period="Senior Software Engineer - Munich, Germany - June 1st, 2021 until now"
+        period="Senior Software Engineer – Munich, Germany – June 1st, 2021 to present"
       >
         <p>
-          As a Senior Software Engineer at Hewlett Packard Enterprise, I work on new generation
-          UI for HPE Ezmeral Data Fabric. HPE Ezmeral Data Fabric is industry’s first edge to
-          cloud solution that natively ingests and stores different data types, enables
-          in-place processing, and simplifies data access by supporting APIs, languages, and
-          protocols popular with analytic and data science consumers.
+          As a Senior Software Engineer at Hewlett Packard Enterprise, I work on the next-generation
+          UI for HPE Ezmeral Data Fabric. It is the industry’s first edge-to-cloud solution that
+          natively ingests and stores diverse data types, enables in-place processing, and
+          simplifies data access via APIs, languages, and protocols popular with analytics and data
+          science consumers.
         </p>
 
         <p className="mt-2">
-          The UI of HPE Ezmeral Data Fabric uses TypeScript, React, Redux and HPE&apos;s Grommet
-          design system. I am responsible for building the new UI wizard that allows user to
-          install HPE Ezmeral Data Fabric Software on existing clusters.
+          The UI is built using TypeScript, React, Redux, and HPE&apos;s Grommet design system.
+          I am responsible for developing a new UI wizard that allows users to install HPE Ezmeral
+          Data Fabric software on existing clusters.
         </p>
       </EmployerSection>
 
       <EmployerSection
         employerName="Xempus AG"
-        period="Senior Front-End Engineer - Munich, Germany - April 1st, 2018 until May 31st, 2021"
+        period="Senior Front-End Engineer – Munich, Germany – April 1st, 2018 to May 31st, 2021"
       >
         <p>
-          The Xempus platform digitalizes occupational retirement pensions in Germany. It
-          provides a solution for all target groups involved. As a senior front-end engineer at
-          Xempus, I was responsible for overall architecture on front-end and for building
-          features, that are available to reuse for the whole platform. I also maintained &amp;
-          build a design system of reusable components and patterns. Each service in the
-          platform is integrated using Docker and Kubernetes.
+          Xempus is a platform that digitalizes occupational retirement pensions in Germany,
+          offering solutions for all stakeholder groups. As a Senior Front-End Engineer,
+          I was responsible for the overall front-end architecture and for building reusable
+          features across the platform. I also developed and maintained a design system with
+          reusable components and patterns. The platform&apos;s services were integrated using
+          Docker and Kubernetes.
         </p>
       </EmployerSection>
 
       <EmployerSection
         employerName="AppDirect, Inc."
-        period="Senior Front-End Engineer - Munich, Germany - October 1st, 2015 until February 28th, 2018"
+        period="Senior Front-End Engineer – Munich, Germany – October 1st, 2015 to February 28th, 2018"
       >
         <p>
-          AppDirect is a digital platform that helps other businesses to succeed by offering
-          them multiple SaaS solutions. As I senior front-end engineer, I was responsible for
-          building important features for monetization suite using React.js. I helped AppDirect
-          to provide a theme and additional functionality for a couple of major customers
-          including Vodafone, Swisscom, Deutsche Telekom, etc.
+          AppDirect is a digital platform that empowers businesses by offering multiple SaaS
+          solutions. As a Senior Front-End Engineer, I built key features for the monetization suite
+          usingReact.js. I also contributed themes and additional functionality for major clients,
+          including Vodafone, Swisscom, and Deutsche Telekom.
         </p>
       </EmployerSection>
 
       <EmployerSection
         employerName="S&amp;P Global Platts"
-        period="Front-End Engineer - Munich, Germany - August 1st, 2014 until September 30th, 2015"
+        period="Front-End Engineer – Munich, Germany – August 1st, 2014 to September 30th, 2015"
       >
         <p>
-          S&amp;P Global Platts originally Minerals Value Service is an analytical tool for the
-          iron&amp;ore industry. I worked there as a front-end developer using mostly
-          Angular.js, Highcharts, Google Maps API &amp; SVG animations. Minerals Value Service
-          was a full single-page-application communicating with back-end through JSON APIs.
+          S&amp;P Global Platts (formerly Minerals Value Service) is an analytical tool for the
+          iron &amp; ore industry. As a Front-End Engineer, I worked with Angular.js, Highcharts,
+          the Google Maps API, and SVG animations. The application was a full single-page app
+          communicating with a back-end via JSON APIs.
         </p>
       </EmployerSection>
 
       <EmployerSection
         employerName="OrganisedMinds GmbH"
-        period="Full-Stack Engineer - Karlsruhe, Germany - March 14th, 2011 until July 31st, 2014"
+        period="Full-Stack Engineer – Karlsruhe, Germany – March 14th, 2011 to July 31st, 2014"
       >
         <p>
-          As a full-stack engineer at OrganisedMinds, I was responsible for building new
-          features using Ruby on Rails, jQuery &amp; Backbone.js. OrganisedMinds was a real-time
-          application with a lot of advanced drag&amp;drop features at that time. It was my
-          first job as a web developer.
+          As a Full-Stack Engineer at OrganisedMinds, I developed new features using Ruby on Rails,
+          jQuery, and Backbone.js. The application was real-time and included advanced drag-and-drop
+          functionality. This was my first role as a web developer.
         </p>
       </EmployerSection>
 
       <EmployerSection
         employerName="Eaton Industries s.r.o."
-        period="CAD Designer - Chomutov, Czech Republic - November 1st, 2006 until August 31st, 2010"
+        period="CAD Designer – Chomutov, Czech Republic – November 1st, 2006 to August 31st, 2010"
       >
         <p>
-          Eaton produces a vast array of air conditioning lines and components. As a CAD
-          Designer at Eaton Industries, I was responsible for the design of new tools and gages
-          using CATIA V5. I was also responsible for the layout of the plant and improvements
-          in production.
+          Eaton manufactures a wide range of air conditioning lines and components.
+          As a CAD Designer, I was responsible for designing tools and gauges using CATIA V5.
+          I also worked on plant layout and production process improvements.
         </p>
       </EmployerSection>
     </CvSection>

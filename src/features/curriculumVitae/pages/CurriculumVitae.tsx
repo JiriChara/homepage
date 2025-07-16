@@ -35,7 +35,7 @@ export default function CurriculumVitae() {
       <CvSection title="Hobbies & Interests">
         <p>
           Music, traveling, hiking, cooking, drones, technology, programming, running, tea, spicy
-          food, reading, etc.
+          food, reading, gym and more.
         </p>
       </CvSection>
 
