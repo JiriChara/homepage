@@ -44,7 +44,7 @@ export default function CvEmploymentHistory() {
         <p>
           AppDirect is a digital platform that empowers businesses by offering multiple SaaS
           solutions. As a Senior Front-End Engineer, I built key features for the monetization suite
-          usingReact.js. I also contributed themes and additional functionality for major clients,
+          using React.js. I also contributed themes and additional functionality for major clients,
           including Vodafone, Swisscom, and Deutsche Telekom.
         </p>
       </EmployerSection>
