@@ -9,7 +9,7 @@ export default function Introduction() {
         developer tools.
       </p>
 
-      <p>
+      <p className="mb-4">
         Over the years, I&apos;ve worked on projects ranging from startup
         products to large-scale enterprise platforms, always focusing on
         performance, maintainability, and user experience. I enjoy solving
